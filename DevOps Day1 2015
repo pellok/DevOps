@@ -1,0 +1,219 @@
+WiFi:85B1A08C04
+
+Ansible
+
+CI樂天
+Nurtune
+UT Coverage
+Cobertura
+JaCoCo
+Jinkin Farms
+
+chef Michael Ducy
+http://goatcan.do
+30 day challenges
+DevOps Dojo
+ Build a team of experts
+ Use those experts to train other teams
+ Execute a 30 Day Challenge to prove the methods
+
+Community
+Enterprises evolving
+ Tools to enable highly distrbuted teams
+  Github
+  Slack
+  Hpchat
+  video Conferencing
+
+
+ Social Media Communities
+  Rebuilding the community 
+  Intermal Events
+
+Culture
+
+Yahoo Continous Delivery
+Production Pushes
+APAC Production Pushes
+
+Ideal --> Product --> Data -->Ideal
+
+Mindset Change
+Culture Change
+CD is the Norm
+All-in
+
+Executive Mandate
+
+5 Stage of Grief
+Denial
+Anger
+Bargaining
+Depression
+Acceptance
+
+Git in 30
+Built Farms
+CD in 2 
+
+
+-------------
+DevOps In Public Cloud Service
+The Scale
+Design Phase
+Pilotrun Phase
+Tuning 
+Matruing
+
+S3 as Storage Backend
+IAM-Role 
+Supple VPN
+
+RDS
+Compatile with MySQL
+Multi-AZ
+Backups
+ -Daily snapshots
+ -Point in time recovery
+SLA 99.95%
+
+Hosted Mysql - HA Solution
+Distributed HAproxy
+
+
+ELE, VPC
+
+Infra Monitoring & Metrics
+
+Backup & DR Drill
+Daily Backup
+ -R53
+ -EBS
+ -Database
+DR Dril, Monkey Test
+ -One node Crash
+ -One zone Crash
+ -One region Crash
+ -Database gone
+
+Capacity Planning(DB Node)
+
+Security Policy & Design
+Two-way authentication(MFA)
+IAM-role
+Password policy
+Trust Advsion
+
+Others
+log 
+ -ELB log
+ -S3 log
+ -CloudTrail
+
+Data Migration(smart)
+Disk health status
+Copy 99.9% files before D-day
+Replicate DB to AWS
+Read-Only mode for D-day
+Shorter DNS TTL
+
+
+Agenda
+New Invention Adoption
+
+Agile Development - It al starts here
+Agile Practice
+
+Agile Values(manifesto)
+
+Biz --> Dev + Test + Ops -->Market
+           CI     UAT
+       Products Delivered
+
+ITRI Cloud OS - a complex system
+
+ITRI Cloud OS SDLC
+
+Branching Methodology
+Feature Branch 
+Release Integration Branch Release 
+Candidate Branch
+
+System Integration Test
+
+spiraTest
+Jira Issue workflow
+
+Internal Beta-EYODF
+
+
+---------- gogolook whoscell 
+Monitoring 
+Risk Management
+Threats
+ -avoid
+ -transfer
+ -mitigate
+Opportunities
+ -exploit
+ -enhance
+ -share
+
+App Crash &  -Black Box
+-pingdom
+-slack
+
+-Crashlytics - 手機
+-slack 通知
+
+
+DB outage - MongoDB
+-CloudWatch
+-MongoDB Cloud Menager
+
+Poor performance
+-CloudWatch for Instance Metric
+ CloudWatch Limits Metric data is kept for 2 week
+-fluentd - 曾書庭@taipei.py
+-StatsD 把fluentd 導入到StatsD
+-Grafana
+
+Metrics Lib - Java
+-New Relic - install to OS 查看OS底層和程式時間
+
+Log in S3
+-fluentd
+-elasticsearch 
+-google bigquery
+
+Internal errors
+-Sentry
+-slack
+
+Prometheus 整合多LOG
+-Data model
+-Query language
+
+
+O'REILLY Velocity 會議
+
+C or Go overhead low
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
