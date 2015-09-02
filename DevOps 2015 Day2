@@ -1,0 +1,320 @@
+DevOps in Cloud Google Ian Lewis
+Businesses need agility speed efficiency
+Failure is the norm
+-many device
+-MTBF of years = 1 failure per hour
+
+The(google) Solution
+-plan for ailure instead of reacting
+-software + Best Practices + platforms
+-Investments at all layers
+
+Gloud Platform is built on the same infrastructure that powers Google
+
+Google Compute Engine
+
+Managed Instance Groups
+Instance Group Manager
+Instance Templates
+Instance Group Updater
+Compute Engine Autoscaler
+
+Cloud Ops
+Gain insight into your cloud-powered applictions
+focus on what matters
+sleep soundly
+
+What is Cloud Ops?
+Your Stack
+Cloud Services -Google or AWS
+Systems - Windows or Linux
+Application - Common 3rd party
+
+Data 
+Logs & Metrics
+
+Features
+Visualization
+Analysis
+Notification
+
+Cloud Monitoring
+Cloud monitoring delivers value, fast
+Out-of-Box
+Quick
+Integrated
+
+Cloud Monitoring Benefits
+-Multi-cloud
+-Easy to adopt
+-Modern
+
+Cloud Logging Delivers insight
+Cloud Logging Benefits
+
+--------------------------------
+Dancing with Chef 趨勢科技 蔡宗城
+Basic Concept About CM
+-Infrastructure as Code
+Chef Terminology
+-Role,e.g. DB,Web,Queue...
+-Environment, e.g. Dev,Beta,Production
+-Cookbook
+ -Recipe, a series of resource need to be generated
+ -Template, configuration file template
+ -Attribute,varible
+
+Chef Server - Chef Node
+1. Define Role for each server
+2. Define Environment for each server
+3. Assign Cookbook to Role
+
+
+
+-------------------------
+Yahoo QC Li  Mobile App Engineer
+Continuous Delivery
+-Low Cycle Time
+-High Quality
+
+Automation almost everything
+
+Commit to Production without human interaction
+
+Continuous Delivery Pipeline
+-Workflow of tasks
+-Automatically delivers code from commite
+-Keep everything in Version Control
+-Each change should propagate through the pipeline
+-Let the state of pipeline visible
+ -Dashboard
+ -Physically
+
+Quick Feedback
+Everyone is responsible for the quality
+Everyone is responsible for the delivery process
+
+
+Per Commit
+-Developing, make changes
+-Build locally
+-Test Locally(e.g. Unit test)
+-Commit after it can be built successfully and passing test
+
+Pull Request
+-After commit change
+
+Code Review
+-changes need be reviewed by other developers
+-Do Not merge it without code review
+
+Merge
+-Merge fter it can be built successfully and passing test
+
+Commit stage
+-Assert App works at technical level
+-Build
+ -Compile Soure Binery
+-Unit test
+ -Test a method with input
+-Analysis
+ -check its health
+  -Test coverage
+  -
+Automated Acceptance Testing Stage
+-Assert App delivers the value to user is expected
+-Smoke Test
+ -Check App can provide most important features
+ -Test through UI automation
+-Functional Test
+ -Check App provide main features we want to like
+ -Test through UI automation
+
+Automated Non-functional Testing Stage
+-Stability Test
+ -Monkey test
+-Performance Test
+ -Code start time
+ -Momory usage
+ -FPS
+ -...
+
+Manual Testing
+-Something can not be tested automatically
+
+Release
+-Submit the production candidate to Google Play/App Store
+
+
+---------------------------------------------------
+Ansible base from python 葉秉哲
+https://github.com/William-Yeh/practical-ansible.git
+
+Ansible
+ -control machine
+ -managed node
+
+Require SSH Python>2.5
+
+Ad-Hoc Command
+
+Inventory
+
+Playbooks
+-push mode
+-pull mode
+
+
+haproxy
+
+Ansible Galaxy
+
+Continuous Delivery 書
+-blue-Green Deployment
+
+Capistrano-like for deploy
+
+Blue-Green Deployment
+
+Deployment rolling upgrade
+
+Automated configuration Testing
+-Virtual machines + CI
+-Docker + CI
+-Test kitchen service
+
+
+----------------------------------------------
+Web 前端開發先行 戚務漢
+UNIT tests
+API tests
+UI tests
+Manual
+
+HTML JS CSS
+
+Convention
+-Everyone's code, must be same code.
+-JSCS + 'use restrick' JavaScript
+-Jade vs HTML
+-Sass vs css
+-ghooks
+-precommit-hook
+
+Controllr
+-web components
+-UI event
+-Login function
+
+Login function (Backend)
+user input -> login -> Validata -> result verify
+        Mock Data
+
+mocha or chai
+
+Login function(angular)
+ARMA - Jasmine
+
+Make Test as Simple as Posible
+
+UI event  (User basic behavior)
+-Phantom JS
+ -Test Save -> Code Save -> Success/Fail
+-Seleums init 太久
+-Protractor 
+ -Testing Against Multiple Browser
+
+User basic behavior
+Dropdown - click + select
+
+----------------------------------
+The Survival Guide for Small Team in DevOps Jungle  陳正偉
+Survival Guide
+LEAN
+Agile
+Continous Integration
+Continous Delivery
+
+Roadmap
+Software Value Steam
+
+Team
+DevOps Topologies
+What Team Structure is Right
+
+挑選工具
+-符合需求
+-學習成本
+-設計邏輯
+-價格
+-售後服務
+-商業資源 金主支持 Docker
+-教學資源
+-社群
+-生態系
+
+vagrant
+
+--------------------------------
+Android 開發工具DevOps Gradle 邱炫儒
+
+Product Flavor and Multiple APK
+
+The versionName/versionCode schema
+
+What is Dogfooding?
+
+Maven
+
+Handle dependency conflict
+
+----------------------------------
+Chef and DevOps  Michael Ducy/Chef 全球傳教士
+Chef is "Infrastructure as Code"
+Cookbooks
+Recipes
+Resources
+
+
+Chef is a language(based by Ruby)
+
+
+Food Critic
+Rubocop
+ChefSpec
+Test Kitchen
+guard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
